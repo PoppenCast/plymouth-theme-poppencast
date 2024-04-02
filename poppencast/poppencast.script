@@ -1,5 +1,5 @@
-nframes = 180;
-nseconds = 6;
+nframes = 148;
+nseconds = 6.16667;
 
 for (i = 0; i <= nframes; i++) {
   frames_buffer[i] = Image("logo_animation" + i + ".png");
@@ -15,7 +15,7 @@ frame = null;
 fun refresh_callback() {
   if (Math.Int(progress) <= nframes) {
      frame = frames_buffer[Math.Int(progress)];
-     progress = progress + ((nframes/nseconds)/30);
+     progress = progress + ((nframes/nseconds)/24);
   }
   video.SetImage(frame);
 }
