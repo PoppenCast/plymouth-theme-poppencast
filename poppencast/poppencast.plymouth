@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=PoppenCast
+Description=PoppenCast Plymouth animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/poppencast
+ScriptFile=/usr/share/plymouth/themes/poppencast/poppencast.script
+UseFirmwareBackground=false
