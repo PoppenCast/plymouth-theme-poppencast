@@ -12,10 +12,11 @@ License: GPL-3.0-or-later
 URL:	 %{forgeurl}
 Source:  %{forgesource}
 
-Requires: gdm
-Requires: dconf
+Requires: plymouth
+Requires: plymouth-theme-script
 
-BuildRequires: dconf
+BuildRequires: plymouth
+BuildRequires: plymouth-theme-script
 BuildArch:     noarch
 
 %description
