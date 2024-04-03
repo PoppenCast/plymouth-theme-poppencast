@@ -1,6 +1,6 @@
 %global forgeurl https://github.com/emansom/plymouth-theme-poppencast
 
-Version: 0.0.2
+Version: 0.0.3
 
 %forgemeta
 
@@ -49,6 +49,9 @@ export PLYMOUTH_PLUGIN_PATH=%{_libdir}/plymouth/
 %{_sbindir}/plymouth-set-default-theme --reset
 
 %changelog
+* Thu Apr 04 2024 Ewout van Mansom <ewout@vanmansom.name> 0.0.3-1
+- Better dependencies for package (ewout@vanmansom.name)
+
 * Thu Apr 04 2024 Ewout van Mansom <ewout@vanmansom.name> 0.0.2-1
 - Add dependencies to spec file (ewout@vanmansom.name)
 
