@@ -1,6 +1,6 @@
 %global forgeurl https://github.com/emansom/plymouth-theme-poppencast
 
-Version: 0.0.0
+Version: 0.0.1
 
 %forgemeta
 
@@ -48,3 +48,6 @@ export PLYMOUTH_PLUGIN_PATH=%{_libdir}/plymouth/
 %{_sbindir}/plymouth-set-default-theme --reset
 
 %changelog
+* Thu Apr 04 2024 Ewout van Mansom <ewout@vanmansom.name> 0.0.1-1
+- new package built with tito
+
