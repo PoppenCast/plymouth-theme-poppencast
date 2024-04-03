@@ -13,10 +13,10 @@ URL:	 %{forgeurl}
 Source:  %{forgesource}
 
 Requires: plymouth
-Requires: plymouth-theme-script
+Requires: plymouth-plugin-script
 
 BuildRequires: plymouth
-BuildRequires: plymouth-theme-script
+BuildRequires: plymouth-plugin-script
 BuildArch:     noarch
 
 %description
